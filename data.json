@@ -1,0 +1,306 @@
+{
+  "source": "https://www.peterpanz.com/villa",
+  "generated_at": null,
+  "universities": [
+    {
+      "university": "서울대학교",
+      "district": "관악구",
+      "dong": "신림동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "연세대학교",
+      "district": "서대문구",
+      "dong": "창천동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "고려대학교",
+      "district": "성북구",
+      "dong": "안암동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "서강대학교",
+      "district": "마포구",
+      "dong": "신수동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "성균관대학교",
+      "district": "종로구",
+      "dong": "명륜동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "한양대학교",
+      "district": "성동구",
+      "dong": "사근동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "중앙대학교",
+      "district": "동작구",
+      "dong": "흑석동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "경희대학교",
+      "district": "동대문구",
+      "dong": "회기동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "한국외국어대학교",
+      "district": "동대문구",
+      "dong": "이문동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "서울시립대학교",
+      "district": "동대문구",
+      "dong": "전농동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "이화여자대학교",
+      "district": "서대문구",
+      "dong": "대현동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "건국대학교",
+      "district": "광진구",
+      "dong": "화양동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "동국대학교",
+      "district": "중구",
+      "dong": "필동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "홍익대학교",
+      "district": "마포구",
+      "dong": "상수동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "숙명여자대학교",
+      "district": "용산구",
+      "dong": "청파동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "국민대학교",
+      "district": "성북구",
+      "dong": "정릉동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "숭실대학교",
+      "district": "동작구",
+      "dong": "상도동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "세종대학교",
+      "district": "광진구",
+      "dong": "군자동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "광운대학교",
+      "district": "노원구",
+      "dong": "월계동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "서울과학기술대학교",
+      "district": "노원구",
+      "dong": "공릉동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "명지대학교(인문)",
+      "district": "서대문구",
+      "dong": "남가좌동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "상명대학교",
+      "district": "종로구",
+      "dong": "홍지동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "한성대학교",
+      "district": "성북구",
+      "dong": "삼선동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "서경대학교",
+      "district": "성북구",
+      "dong": "정릉동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "삼육대학교",
+      "district": "노원구",
+      "dong": "공릉동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "서울여자대학교",
+      "district": "노원구",
+      "dong": "공릉동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "덕성여자대학교",
+      "district": "도봉구",
+      "dong": "쌍문동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "동덕여자대학교",
+      "district": "성북구",
+      "dong": "하월곡동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "성신여자대학교",
+      "district": "성북구",
+      "dong": "동선동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    },
+    {
+      "university": "가톨릭대학교(성신교정)",
+      "district": "종로구",
+      "dong": "혜화동",
+      "listing_count": 0,
+      "avg_deposit_10k_krw": null,
+      "avg_monthly_rent_10k_krw": null,
+      "avg_management_fee_10k_krw": null,
+      "listings": []
+    }
+  ]
+}
