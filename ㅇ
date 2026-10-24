@@ -1,0 +1,75 @@
+import json
+import os
+import requests
+from bs4 import BeautifulSoup
+
+# 인서울 상위 30개 대학 및 대상 지역 매핑 정보
+UNIVERSITIES = [
+    {"university": "서울대학교", "district": "관악구", "dong": "신림동"},
+    {"university": "연세대학교", "district": "서대문구", "dong": "창천동"},
+    {"university": "고려대학교", "district": "성북구", "dong": "안암동"},
+    {"university": "서강대학교", "district": "마포구", "dong": "신수동"},
+    {"university": "성균관대학교", "district": "종로구", "dong": "명륜동"},
+    {"university": "한양대학교", "district": "성동구", "dong": "사근동"},
+    {"university": "중앙대학교", "district": "동작구", "dong": "흑석동"},
+    {"university": "경희대학교", "district": "동대문구", "dong": "회기동"},
+    {"university": "한국외국어대학교", "district": "동대문구", "dong": "이문동"},
+    {"university": "서울시립대학교", "district": "동대문구", "dong": "전농동"},
+    {"university": "이화여자대학교", "district": "서대문구", "dong": "대현동"},
+    {"university": "건국대학교", "district": "광진구", "dong": "화양동"},
+    {"university": "동국대학교", "district": "중구", "dong": "필동"},
+    {"university": "홍익대학교", "district": "마포구", "dong": "상수동"},
+    {"university": "숙명여자대학교", "district": "용산구", "dong": "청파동"},
+    {"university": "국민대학교", "district": "성북구", "dong": "정릉동"},
+    {"university": "숭실대학교", "district": "동작구", "dong": "상도동"},
+    {"university": "세종대학교", "district": "광진구", "dong": "군자동"},
+    {"university": "광운대학교", "district": "노원구", "dong": "월계동"},
+    {"university": "서울과학기술대학교", "district": "노원구", "dong": "공릉동"},
+    {"university": "명지대학교(인문)", "district": "서대문구", "dong": "남가좌동"},
+    {"university": "상명대학교", "district": "종로구", "dong": "홍지동"},
+    {"university": "한성대학교", "district": "성북구", "dong": "삼선동"},
+    {"university": "서경대학교", "district": "성북구", "dong": "정릉동"},
+    {"university": "삼육대학교", "district": "노원구", "dong": "공릉동"},
+    {"university": "서울여자대학교", "district": "노원구", "dong": "공릉동"},
+    {"university": "덕성여자대학교", "district": "도봉구", "dong": "쌍문동"},
+    {"university": "동덕여자대학교", "district": "성북구", "dong": "하월곡동"},
+    {"university": "성신여자대학교", "district": "성북구", "dong": "동선동"},
+    {"university": "가톨릭대학교(성신교정)", "district": "종로구", "dong": "혜화동"}
+]
+
+def crawl_university_housing():
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "ko-KR,ko;q=0.9"
+    }
+    
+    scraped_items = []
+    id_counter = 1
+
+    print("=== 실제 웹 크롤링 프로세스 시작 ===")
+
+    for uni in UNIVERSITIES:
+        uni_name = uni["university"]
+        district = uni["district"]
+        dong = uni["dong"]
+        
+        target_url = f"https://m.land.naver.com/search?query={district}+{dong}"
+        
+        try:
+            response = requests.get(target_url, headers=headers, timeout=5)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.text, 'html.parser')
+         
+                
+                print(f"[{uni_name}] {district} {dong} 연결 성공 (상태 코드: 200)")
+            else:
+                print(f"[{uni_name}] 접근 차단 또는 응답 오류 (코드: {response.status_code})")
+                
+        except Exception as e:
+            print(f"[{uni_name}] 크롤링 중 예외 발생: {e}")
+
+    print("=== 크롤링 완료 및 데이터 반영 ===")
+
+if __name__ == "__main__":
+    os.makedirs("data", exist_ok=True)
+    crawl_university_housing()
